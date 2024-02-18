@@ -1,0 +1,32 @@
+.resultSection {
+    background-color: var(--very-dark-cyan);
+    border-radius: 0.5em;
+    padding: 2rem;
+}
+
+.resultGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.resetButton {
+    border: 0;
+    border-radius: 0.5em;
+    background-color: var(--strong-cyan);
+    color: var(--very-dark-cyan);
+    width: 100%;
+    padding: 1em;
+    font-weight: 700;
+}
+
+.resultMainLabel {
+    color: var(--very-light-grayish-cyan);
+}
+
+.resultSubLabel {
+    color: var(--grayish-cyan);
+}
+
+.resultSumLabel {
+    color: var(--strong-cyan);
+}

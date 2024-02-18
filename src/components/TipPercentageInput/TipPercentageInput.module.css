@@ -1,0 +1,32 @@
+.percentageGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 0.5em;
+    column-gap: 0.5em;
+}
+
+.percentageButton {
+    border: 0;
+    border-radius: 0.3rem;
+
+    padding: 0.5rem 1rem;
+
+    background-color: var(--very-dark-cyan);
+    color: var(--very-light-grayish-cyan);
+
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
